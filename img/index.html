@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="example-assets/style.css" type="text/css">
+
+<style>
+    @-webkit-keyframes bounceInRight { 
+    0% { 
+        opacity: 0; 
+        
+        -webkit-transform: translateX(400px); 
+    } 
+    60% { 
+        
+        -webkit-transform: translateX(-30px); 
+    } 
+    80% { 
+        -webkit-transform: translateX(10px); 
+    } 
+    100% {
+    opacity: 1;
+     
+        -webkit-transform: translateX(0); 
+    } 
+} 
+
+@keyframes bounceInRight { 
+    0% { 
+        opacity: 0; 
+        
+        transform: translateX(400px); 
+    } 
+    60% { 
+        
+        transform: translateX(-30px); 
+    } 
+    80% { 
+        transform: translateX(10px); 
+    } 
+    100% {
+    opacity: 1;
+     
+        transform: translateX(0); 
+    } 
+} 
+
+/* .bounceInRight{
+    opacity:0;
+    -webkit-transform: translateX(400px); 
+    transform: translateX(400px); 
+} */
+
+.bounceInRight.go { 
+    -webkit-animation-name: bounceInRight; 
+    animation-name: bounceInRight; 
+}
+</style>
+
+</head>
+<body>
+    <h2 class='animated bounceInRight'>It Works!</h2>
+
+    <script>
+        
+    </script>
+
+</body>
+</html>
